@@ -152,7 +152,7 @@ export default function Page3({ onNext, onPrev }: { onNext: () => void; onPrev: 
       {/* 헤더 - 항상 flow에 유지해서 아래 요소 위치 고정 */}
       <div style={{ textAlign: 'center', visibility: result !== 'none' ? 'hidden' : 'visible' }}>
         <h1 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 10px', lineHeight: 1.4 }}>
-          {`나랑 3월 1일에 놀래?(${getDDay()})`}
+          {`나랑 3월 1일에 보겜카 갈래?(${getDDay()})`}
         </h1>
         <p style={{ fontSize: '14px', color: '#999', margin: 0 }}>
           아래 버튼을 원하는 원에 드래그 하세요.
@@ -171,7 +171,7 @@ export default function Page3({ onNext, onPrev }: { onNext: () => void; onPrev: 
           pointerEvents: 'none',
         }}>
           <span style={{ fontSize: '22vw', fontWeight: 700, lineHeight: 1.2, textAlign: 'center' }}>
-            {result === 'good' ? '사랑해💕' : '응 니 나가'}
+            {result === 'good' ? '아싸💕' : '응 니 나가'}
           </span>
         </div>
       )}
